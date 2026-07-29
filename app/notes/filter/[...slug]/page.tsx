@@ -2,9 +2,10 @@ import { dehydrate, HydrationBoundary, QueryClient } from '@tanstack/react-query
 import { fetchNotes } from '../../../../lib/api';
 import NotesClient from './Notes.client';
 
-export default async function NotesPage({ params }: { params: { slug: string[] } }) {
+export default async function NotesPage({ params }: { params: Promise<{ slug: string[] }> }) {
   const queryClient = new QueryClient();
-  const slug = params.slug || [];
+  const resolvedParams = await params;
+  const slug = resolvedParams.slug || [];
   const rawTag = slug[0];
   const tag = rawTag === 'all' ? undefined : rawTag;
 
