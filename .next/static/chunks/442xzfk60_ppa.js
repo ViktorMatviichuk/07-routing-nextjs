@@ -1,1 +1,0 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,58881,t=>{"use strict";var e=t.i(33997);t.s(["default",0,function({error:t}){return(0,e.jsxs)("p",{children:["Could not fetch note details. ",t.message]})}])}]);
