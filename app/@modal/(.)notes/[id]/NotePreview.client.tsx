@@ -16,6 +16,7 @@ const NotePreviewClient: React.FC<NotePreviewClientProps> = ({ id }) => {
   const { data: note, isLoading, isError } = useQuery({
     queryKey: ['note', id],
     queryFn: () => fetchNoteById(id),
+    refetchOnMount: false,
   });
 
   if (isLoading) return <Modal onClose={() => router.back()}><p>Loading...</p></Modal>;
