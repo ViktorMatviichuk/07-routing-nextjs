@@ -1,0 +1,3 @@
+module.exports=[32189,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(73965);a.n(d("[project]/Desktop/06-notehub-nextjs — копия/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},10309,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(73965);a.n(d("[project]/Desktop/06-notehub-nextjs — копия/node_modules/next/dist/client/components/builtin/global-error.js"))},49456,a=>{"use strict";a.i(32189);var b=a.i(10309);a.n(b)},14515,a=>{a.n(a.i(49456))}];
+
+//# sourceMappingURL=0xl4_next_dist_client_components_builtin_global-error_11lkfd7.js.map

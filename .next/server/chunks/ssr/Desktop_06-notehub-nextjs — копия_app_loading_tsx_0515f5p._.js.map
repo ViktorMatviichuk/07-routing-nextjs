@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../../../Desktop/06-notehub-nextjs%20%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/app/loading.tsx"],"sourcesContent":["export default function Loading() {\n  return <p>Loading, please wait...</p>;\n}\n"],"names":["Loading"],"mappings":"uEAAe,SAASA,EACtB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,IAAA,UAAE,2BACZ"}
